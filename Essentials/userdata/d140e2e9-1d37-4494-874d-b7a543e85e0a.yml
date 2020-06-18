@@ -1,16 +1,16 @@
 lastAccountName: eXish
 timestamps:
-  login: 1592441815524
-  lastteleport: 1592442357709
+  login: 1592443916601
+  lastteleport: 1592449662030
   logout: 1592442866915
 ipAddress: 73.182.206.117
 lastlocation:
   world: Redemption
-  x: 49.91177528970722
-  y: 68.54040525373046
-  z: -172.65322024812156
-  yaw: 2.6931152
-  pitch: 25.050741
+  x: -36.08750950275763
+  y: 56.0
+  z: -143.84707428121663
+  yaw: 34.593353
+  pitch: 15.768733
 homes:
   home:
     world: world

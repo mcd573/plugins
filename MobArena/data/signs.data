@@ -1,0 +1,113 @@
+# MobArena Sign Store
+# 
+# Please DON'T edit this file by hand!
+
+signs:
+- ==: com.garbagemule.MobArena.signs.ArenaSign
+  arenaId: Redemption
+  location:
+    ==: org.bukkit.Location
+    world: Redemption
+    x: -35.0
+    y: 57.0
+    z: -151.0
+    pitch: 0.0
+    yaw: 0.0
+  templateId: leave
+  type: leave
+- ==: com.garbagemule.MobArena.signs.ArenaSign
+  arenaId: Redemption
+  location:
+    ==: org.bukkit.Location
+    world: Redemption
+    x: -46.0
+    y: 57.0
+    z: -150.0
+    pitch: 0.0
+    yaw: 0.0
+  templateId: leave
+  type: leave
+- ==: com.garbagemule.MobArena.signs.ArenaSign
+  arenaId: Redemption
+  location:
+    ==: org.bukkit.Location
+    world: Redemption
+    x: -47.0
+    y: 57.0
+    z: -142.0
+    pitch: 0.0
+    yaw: 0.0
+  templateId: leave
+  type: leave
+- ==: com.garbagemule.MobArena.signs.ArenaSign
+  arenaId: Redemption
+  location:
+    ==: org.bukkit.Location
+    world: Redemption
+    x: -35.0
+    y: 57.0
+    z: -141.0
+    pitch: 0.0
+    yaw: 0.0
+  templateId: leave
+  type: leave
+- ==: com.garbagemule.MobArena.signs.ArenaSign
+  arenaId: Redemption
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -517.0
+    y: 79.0
+    z: -139.0
+    pitch: 0.0
+    yaw: 0.0
+  templateId: join
+  type: join
+- ==: com.garbagemule.MobArena.signs.ArenaSign
+  arenaId: Redemption
+  location:
+    ==: org.bukkit.Location
+    world: Redemption
+    x: -47.0
+    y: 57.0
+    z: -150.0
+    pitch: 0.0
+    yaw: 0.0
+  templateId: leave
+  type: leave
+- ==: com.garbagemule.MobArena.signs.ArenaSign
+  arenaId: Redemption
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -517.0
+    y: 79.0
+    z: -138.0
+    pitch: 0.0
+    yaw: 0.0
+  templateId: info
+  type: info
+- ==: com.garbagemule.MobArena.signs.ArenaSign
+  arenaId: Redemption
+  location:
+    ==: org.bukkit.Location
+    world: Redemption
+    x: -46.0
+    y: 57.0
+    z: -142.0
+    pitch: 0.0
+    yaw: 0.0
+  templateId: leave
+  type: leave
+- ==: com.garbagemule.MobArena.signs.ArenaSign
+  arenaId: Redemption
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -517.0
+    y: 79.0
+    z: -137.0
+    pitch: 0.0
+    yaw: 0.0
+  templateId: join
+  type: join

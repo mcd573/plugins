@@ -1,16 +1,16 @@
 lastAccountName: mcd573
 timestamps:
-  login: 1592440708353
-  logout: 1592442866912
-  lastteleport: 1592439998794
+  login: 1592443792360
+  logout: 1592447111075
+  lastteleport: 1592449120014
 ipAddress: 127.0.0.1
 lastlocation:
   world: Redemption
-  x: 29.01085527567612
-  y: 70.467870891929
-  z: -124.23149483484029
-  yaw: -27.599955
-  pitch: 16.94994
+  x: -34.135194078540735
+  y: 56.0
+  z: -140.93223070155972
+  yaw: 224.76094
+  pitch: 12.262601
 logoutlocation:
   world: world
   x: -551.7745117145989

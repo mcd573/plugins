@@ -25,10 +25,10 @@ classes:
     items: stone_sword, flint_and_steel, netherrack:2, tnt:4, potion:instant_heal:3
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
 arenas:
-  default:
+  Redemption:
     settings:
       prefix: ''
-      world: world
+      world: Redemption
       enabled: true
       protect: true
       entry-fee: ''
@@ -116,8 +116,22 @@ arenas:
           '13': iron_sword, iron_pickaxe, iron_spade
           '16': diamond_sword
     coords:
-      spawnpoints: {}
+      spawnpoints:
+        20,56,-167: 20.5,56,-166.5,0.0,0.0,Redemption
+        47,56,-167: 47.5,56,-166.5,0.0,0.0,Redemption
+        47,56,-193: 47.5,56,-192.5,0.0,0.0,Redemption
+        20,56,-193: 20.5,56,-192.5,0.0,0.0,Redemption
+        33,59,-111: 33.5,59,-110.5,0.0,0.0,Redemption
+        24,57,-141: 24.5,57,-140.5,0.0,0.0,Redemption
+        43,57,-141: 43.5,57,-140.5,0.0,0.0,Redemption
       containers: {}
+      l1: -53,55,-154,0.0,0.0,Redemption
+      l2: -28,61,-137,0.0,0.0,Redemption
+      p1: 6,55,-206,0.0,0.0,Redemption
+      p2: 61,66,-99,0.0,0.0,Redemption
+      spectator: 34.5,62,-106.5,180.33,0.0,Redemption
+      arena: 34.5,61,-108.5,348.39,0.0,Redemption
+      lobby: -35.5,56,-145.5,-91.36,0.0,Redemption
     class-limits:
       Oddjob: -1
       Knight: -1
