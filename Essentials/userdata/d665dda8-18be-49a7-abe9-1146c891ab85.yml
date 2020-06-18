@@ -1,23 +1,23 @@
 lastAccountName: mcd573
 timestamps:
-  login: 1592443792360
-  logout: 1592447111075
-  lastteleport: 1592454729973
+  login: 1592457260484
+  logout: 1592471338881
+  lastteleport: 1592456343094
 ipAddress: 127.0.0.1
 lastlocation:
   world: world
-  x: -518.6999999880791
-  y: 64.0
-  z: -134.204187986422
-  yaw: -234.85988
-  pitch: -87.600006
+  x: -516.9691972676928
+  y: 78.0
+  z: -138.51529316160406
+  yaw: -86.042946
+  pitch: 2.5499272
 logoutlocation:
   world: world
-  x: -551.7745117145989
-  y: 87.0
-  z: -185.434205238824
-  yaw: 273.2992
-  pitch: 22.650158
+  x: -512.6266243576464
+  y: 77.39665421061594
+  z: -142.73635560843357
+  yaw: -308.79297
+  pitch: 8.399837
 powertools:
   spider_eye:
   - kittycannon
