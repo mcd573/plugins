@@ -8,9 +8,9 @@ signs:
   location:
     ==: org.bukkit.Location
     world: Redemption
-    x: -35.0
+    x: -47.0
     y: 57.0
-    z: -151.0
+    z: -142.0
     pitch: 0.0
     yaw: 0.0
   templateId: leave
@@ -32,9 +32,9 @@ signs:
   location:
     ==: org.bukkit.Location
     world: Redemption
-    x: -47.0
+    x: -35.0
     y: 57.0
-    z: -142.0
+    z: -151.0
     pitch: 0.0
     yaw: 0.0
   templateId: leave
@@ -79,14 +79,14 @@ signs:
   arenaId: Redemption
   location:
     ==: org.bukkit.Location
-    world: world
-    x: -517.0
-    y: 79.0
-    z: -138.0
+    world: Redemption
+    x: 32.0
+    y: 63.0
+    z: -106.0
     pitch: 0.0
     yaw: 0.0
-  templateId: info
-  type: info
+  templateId: leave
+  type: leave
 - ==: com.garbagemule.MobArena.signs.ArenaSign
   arenaId: Redemption
   location:
@@ -99,6 +99,18 @@ signs:
     yaw: 0.0
   templateId: leave
   type: leave
+- ==: com.garbagemule.MobArena.signs.ArenaSign
+  arenaId: Redemption
+  location:
+    ==: org.bukkit.Location
+    world: world
+    x: -517.0
+    y: 79.0
+    z: -138.0
+    pitch: 0.0
+    yaw: 0.0
+  templateId: info
+  type: info
 - ==: com.garbagemule.MobArena.signs.ArenaSign
   arenaId: Redemption
   location:

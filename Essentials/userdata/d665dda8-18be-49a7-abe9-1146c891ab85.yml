@@ -2,15 +2,15 @@ lastAccountName: mcd573
 timestamps:
   login: 1592443792360
   logout: 1592447111075
-  lastteleport: 1592449120014
+  lastteleport: 1592454729973
 ipAddress: 127.0.0.1
 lastlocation:
-  world: Redemption
-  x: -34.135194078540735
-  y: 56.0
-  z: -140.93223070155972
-  yaw: 224.76094
-  pitch: 12.262601
+  world: world
+  x: -518.6999999880791
+  y: 64.0
+  z: -134.204187986422
+  yaw: -234.85988
+  pitch: -87.600006
 logoutlocation:
   world: world
   x: -551.7745117145989
@@ -23,7 +23,7 @@ powertools:
   - kittycannon
   raw_beef:
   - kittycannon
-afk: true
+afk: false
 homes:
   home:
     world: TARDIS_TimeVortex

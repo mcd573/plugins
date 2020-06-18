@@ -15,7 +15,9 @@ groups:
 
     - world_nether
 
-    - TARDIS_TimeVortex
+    - Redemption
+
+    - tardis_timevortex
 
     shares:
 
