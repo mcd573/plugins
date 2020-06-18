@@ -1,0 +1,28 @@
+lastAccountName: TasThing
+timestamps:
+  login: 1592436960518
+  logout: 1592438457730
+  lastteleport: 1592438259430
+ipAddress: 98.113.92.53
+logoutlocation:
+  world: world
+  x: -628.1657640773125
+  y: 147.0
+  z: -162.65279932933436
+  yaw: 354.75012
+  pitch: 64.04985
+lastlocation:
+  world: world
+  x: -623.6999999880791
+  y: 58.0
+  z: -158.32319221059333
+  yaw: 75.055176
+  pitch: -9.149994
+homes:
+  home:
+    world: world
+    x: -626.3761415492892
+    y: 147.0
+    z: -141.87687711994124
+    yaw: 178.10701
+    pitch: 34.199963
