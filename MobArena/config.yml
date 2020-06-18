@@ -5,10 +5,9 @@ global-settings:
   prefix: '&a[MobArena] '
   pet-items:
     wolf: bone
-# These are default, class chests are used instead
 classes:
   Knight:
-    items: diamond_sword, potion:instant_heal:3
+    items: diamond_sword, 373:8197:3
     armor: iron_helmet, iron_chestplate, iron_leggings, iron_boots
   Tank:
     items: iron_sword, potion:instant_heal:2
@@ -23,7 +22,7 @@ classes:
     armor: chainmail_helmet, chainmail_chestplate, chainmail_leggings, chainmail_boots
     effects: speed:1
   Oddjob:
-    items: stone_sword, flint_and_steel, netherrack:2, tnt:4, potion:instant_heal:3
+    items: stone_sword, flint_and_steel, tnt:4, potion:instant_heal:3
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
 arenas:
   Redemption:
@@ -64,7 +63,7 @@ arenas:
       auto-start-timer: 300
       start-delay-timer: 0
       auto-ready: false
-      use-class-chests: true
+      use-class-chests: false
       boss-health-bar: title
       display-waves-as-level: true
       display-timer-as-level: false
