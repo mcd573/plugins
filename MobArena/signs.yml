@@ -29,7 +29,7 @@ info-idle:
 - '&a<arena-name>'
 - '---------------'
 - 'Waiting for'
-- 'players to join'
+- 'Players...'
 info-joining:
 - '&a<arena-name>'
 - '---------------'
@@ -43,13 +43,13 @@ info-running:
 join:
 - '&a<arena-name>'
 - '---------------'
-- 'Hit to join'
+- 'Hit to Join'
 join-running:
 - '&a<arena-name>'
 - '---------------'
-- 'In progress'
+- 'In Progress'
 
 leave:
 - '&a<arena-name>'
 - '---------------'
-- 'Hit to leave'
+- 'Hit to Leave'

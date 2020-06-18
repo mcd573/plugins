@@ -1,10 +1,11 @@
 global-settings:
   enabled: true
-  allowed-commands: /list, /pl
+  allowed-commands: /list, /pl, /msg
   update-notification: true
   prefix: '&a[MobArena] '
   pet-items:
     wolf: bone
+# These are default, class chests are used instead
 classes:
   Knight:
     items: diamond_sword, potion:instant_heal:3
@@ -33,8 +34,8 @@ arenas:
       protect: true
       entry-fee: ''
       default-class: ''
-      clear-wave-before-next: false
-      clear-boss-before-next: false
+      clear-wave-before-next: true
+      clear-boss-before-next: true
       clear-wave-before-boss: false
       soft-restore: false
       soft-restore-drops: false
@@ -44,33 +45,33 @@ arenas:
       monster-infight: false
       allow-teleporting: false
       spectate-on-death: true
-      share-items-in-arena: true
+      share-items-in-arena: false
       min-players: 0
       max-players: 0
       max-join-distance: 0
       join-interrupt-timer: 0
-      first-wave-delay: 5
+      first-wave-delay: 10
       next-wave-delay: 0
       wave-interval: 15
-      final-wave: 0
+      final-wave: 100
       monster-limit: 100
       monster-exp: false
       keep-exp: false
       food-regen: false
       lock-food-level: true
       player-time-in-arena: world
-      auto-ignite-tnt: false
-      auto-start-timer: 0
+      auto-ignite-tnt: true
+      auto-start-timer: 300
       start-delay-timer: 0
       auto-ready: false
-      use-class-chests: false
+      use-class-chests: true
       boss-health-bar: title
-      display-waves-as-level: false
+      display-waves-as-level: true
       display-timer-as-level: false
       use-scoreboards: true
-      isolated-chat: false
-      global-join-announce: false
-      global-end-announce: false
+      isolated-chat: true
+      global-join-announce: true
+      global-end-announce: true
       show-death-messages: true
     waves:
       recurrent:
@@ -80,31 +81,266 @@ arenas:
           frequency: 1
           monsters:
             zombies: 10
-            skeletons: 10
-            spiders: 10
-            creepers: 10
-            wolves: 10
+            skeletons: 6
+            spiders: 8
+            creepers: 4
         spec1:
           type: special
           priority: 2
           frequency: 4
           monsters:
-            powered-creepers: 10
-            zombie-pigmen: 10
-            angry-wolves: 10
-            blazes: 10
+            powered_creepers: 5
+            zombie_pigmen: 9
+            angry_wolves: 10
+            blazes: 8
+            witches: 5
+            baby_pigmen: 8
+            silverfish: 10
+            cave_spiders: 10
+            exploding_sheep: 7
+        sup1:
+          type: supply
+          priority: 3
+          frequency: 5
+          monsters:
+            zombie: 10
+            baby_zombie: 5
+          drops: ender_pearl, golden_apple, tnt:3,
       single:
+        up1:
+          type: upgrade
+          wave: 11
+          upgrades:
+            Bodyguard:
+              armor: diamond_boots
+              items: stone_sword 19:1
+            Bowman:
+              armor: iron_boots
+              items: bow 48:1;49:1, arrow:32
+            Wolfmaster:
+              armor: iron_boots
+              items: wooden_sword 17:3;18:2
+          give-all-items: true
+        up2:
+          type: upgrade
+          wave: 21
+          upgrades:
+            Bodyguard:
+              armor: diamond_chestplate 7:1
+              items: stone_sword 19:2
+            Bowman:
+              armor: chainmail_chestplate 4:2
+              items: bow 48:2;49:1, arrow:32
+            Wolfmaster:
+              armor: chainmail_leggings
+              items: wooden_sword 17:3;18:3
+          give-all-items: true
+        up3:
+          type: upgrade
+          wave: 31
+          upgrades:
+            Bodyguard:
+              armor: diamond_leggings 7:1
+              items: stone_sword 19:2;20:1
+            Bowman:
+              armor: chainmail_leggings 4:2
+              items: bow 48:2;49:2, arrow:32
+          give-all-items: true
+        up4:
+          type: upgrade
+          wave: 41
+          upgrades:
+            Bodyguard:
+              armor: diamond_boots 7:1
+              items: golden_apple
+            Bowman:
+              armor: iron_boots 2:1
+              items: golden_sword 17:1;19:1
+          give-all-items: true
+        up5:
+          type: upgrade
+          wave: 51
+          upgrades:
+            Bodyguard:
+              armor: diamond_chestplate 0:1;7:1
+              items: stone_sword 19:2;20:2
+            Bowman:
+              armor: iron_boots 4:2;2:2
+              items: bow 48:1;49:1;50:1, arrow:32
+          give-all-items: true
+        up6:
+          type: upgrade
+          wave: 61
+          upgrades:
+            Bodyguard:
+              armor: diamond_leggings 0:1;7:1
+              items: iron_sword 19:2;20:2
+            Bowman:
+              armor: chainmail_chestplate 0:1;4:2
+              items: bow 48:2;49:1;50:1;51:1, arrow:1
+          give-all-items: true
+        up7:
+          type: upgrade
+          wave: 71
+          upgrades:
+            Bodyguard:
+              armor: diamond_boots 2:1;7:1
+              items: iron_sword 19:3;20:2
+            Bowman:
+              items: bow 48:2;49:2;50:1;51:1, golden_apple
+          give-all-items: true
+        up8:
+          type: upgrade
+          wave: 81
+          upgrades:
+            Bodyguard:
+              armor: diamond_boots 0:1;2:2;7:1
+              items: iron_sword 19:3;20:3
+            Bowman:
+              armor: chainmail_leggings 0:1;4:2
+              items: bow 48:2;49:2;50:2;51:1
+          give-all-items: true
+        up9:
+          type: upgrade
+          wave: 91
+          upgrades:
+            Bodyguard:
+              armor: diamond_chestplate 0:2;7:1, diamond_leggings 0:1;7:2
+              items: iron_sword 19:3;20:3;17:2, golden_apple:2
+            Bowman:
+              armor: iron_chestplate 0:1;4:2, diamond_boots 4:2;2:2
+              items: bow 48:3;49:2;50:2;51:1, golden_apple:2
+          give-all-items: false
         swarm1:
           type: swarm
           wave: 6
           monster: slime
           amount: low
+        swarm2:
+          type: swarm
+          wave: 16
+          monster: magmacube
+          amount: low
+        swarm3:
+          type: swarm
+          wave: 26
+          monster: silverfish
+          amount: low
+        swarm4:
+          type: swarm
+          wave: 36
+          monster: angry_wolf
+          amount: medium
+        swarm5:
+          type: swarm
+          wave: 46
+          monster: cave_spider
+          amount: medium
+        swarm6:
+          type: swarm
+          wave: 56
+          monster: baby_pigman
+          amount: medium
+        swarm7:
+          type: swarm
+          wave: 66
+          monster: wither_skeleton
+          amount: high
+        swarm8:
+          type: swarm
+          wave: 76
+          monster: exploding_sheep
+          amount: high
+        swarm9:
+          type: swarm
+          wave: 86
+          monster: witch
+          amount: high
+        swarm10:
+          type: swarm
+          wave: 96
+          monster: iron_golem
+          amount: psycho
         boss1:
           type: boss
           wave: 10
           monster: cave_spider
+          name: Creepy Crawly
+          health: verylow
+          abilities: arrows, root-target, pull-nearby
+          ability-interval: 5
+        boss2:
+          type: boss
+          wave: 20
+          monster: enderman
+          name: Teleporting Terror
+          health: verylow
+          abilities: arrows, shuffle-positions, warp-to-player, fetch-nearby, fetch-distant
+          ability-interval: 5
+        boss3:
+          type: boss
+          wave: 30
+          monster: angry_wolf
+          name: Pushy Predator
+          health: low
+          abilities: arrows, throw-target, throw-distant, throw-nearby
+          ability-interval: 5
+        boss4:
+          type: boss
+          wave: 40
+          monster: blaze
+          name: Fire Mage
+          health: low
+          abilities: arrows, fireballs, fire_aura
+          ability-interval: 4
+        boss5:
+          type: boss
+          wave: 50
+          monster: zombie_pigman
+          name: Weather Maniac
+          health: medium
+          abilities: arrows, lightning-aura, chain-lightning
+          ability-interval: 7
+        boss6:
+          type: boss
+          wave: 60
+          monster: wither_skeleton
+          name: Stranger Danger
+          health: medium
+          abilities: arrows, pull-target, pull-nearby, pull-distant, fetch-target
+          ability-interval: 5
+        boss7:
+          type: boss
+          wave: 70
+          monster: enderman
+          name: Teleporting Terror Sr.
           health: high
-          abilities: arrows, root-target, throw-nearby
+          abilities: arrows, fetch-target, shuffle-positions, fetch-nearby, warp-to-player, fetch-distant
+          ability-interval: 5
+        boss8:
+          type: boss
+          wave: 80
+          monster: silverfish
+          name: The Confuser
+          health: high
+          abilities: arrows, disorient-target, shuffle-positions, disorient-nearby, disorient-distant
+          ability-interval: 4
+        boss9:
+          type: boss
+          wave: 90
+          monster: creeper
+          name: The Prince
+          health: veryhigh
+          abilities: arrows, fire-aura, chain-lightning, disorient-nearby, warp-to-player, pull-distant, lightning-aura, obsidian-bomb
+          ability-interval: 4
+        boss10:
+          type: boss
+          wave: 100
+          monster: iron_golem
+          name: The King
+          health: psycho
+          abilities: arrows, fireballs, fire-aura, disorient-nearby, disorient-distant, chain-lightning, root-target, throw-nearby, throw-distant, shuffle-positions, obsidian-bomb, living-bomb, fetch-target
+          ability-interval: 3
     rewards:
       waves:
         every:
