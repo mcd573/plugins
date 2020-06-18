@@ -111,105 +111,64 @@ arenas:
           type: upgrade
           wave: 11
           upgrades:
-            Bodyguard:
+            Knight:
               armor: diamond_boots
-              items: stone_sword 19:1
-            Bowman:
-              armor: iron_boots
-              items: bow 48:1;49:1, arrow:32
-            Wolfmaster:
-              armor: iron_boots
-              items: wooden_sword 17:3;18:2
           give-all-items: true
         up2:
           type: upgrade
           wave: 21
           upgrades:
-            Bodyguard:
-              armor: diamond_chestplate 7:1
-              items: stone_sword 19:2
-            Bowman:
-              armor: chainmail_chestplate 4:2
-              items: bow 48:2;49:1, arrow:32
-            Wolfmaster:
-              armor: chainmail_leggings
-              items: wooden_sword 17:3;18:3
+            Knight:
+              armor: diamond_boots
           give-all-items: true
         up3:
           type: upgrade
           wave: 31
           upgrades:
-            Bodyguard:
-              armor: diamond_leggings 7:1
-              items: stone_sword 19:2;20:1
-            Bowman:
-              armor: chainmail_leggings 4:2
-              items: bow 48:2;49:2, arrow:32
+            Knight:
+              armor: diamond_boots
           give-all-items: true
         up4:
           type: upgrade
           wave: 41
           upgrades:
-            Bodyguard:
-              armor: diamond_boots 7:1
-              items: golden_apple
-            Bowman:
-              armor: iron_boots 2:1
-              items: golden_sword 17:1;19:1
+            Knight:
+              armor: diamond_boots
           give-all-items: true
         up5:
           type: upgrade
           wave: 51
           upgrades:
-            Bodyguard:
-              armor: diamond_chestplate 0:1;7:1
-              items: stone_sword 19:2;20:2
-            Bowman:
-              armor: iron_boots 4:2;2:2
-              items: bow 48:1;49:1;50:1, arrow:32
+            Knight:
+              armor: diamond_boots
           give-all-items: true
         up6:
           type: upgrade
           wave: 61
           upgrades:
-            Bodyguard:
-              armor: diamond_leggings 0:1;7:1
-              items: iron_sword 19:2;20:2
-            Bowman:
-              armor: chainmail_chestplate 0:1;4:2
-              items: bow 48:2;49:1;50:1;51:1, arrow:1
+            Knight:
+              armor: diamond_boots
           give-all-items: true
         up7:
           type: upgrade
           wave: 71
           upgrades:
-            Bodyguard:
-              armor: diamond_boots 2:1;7:1
-              items: iron_sword 19:3;20:2
-            Bowman:
-              items: bow 48:2;49:2;50:1;51:1, golden_apple
+            Knight:
+              armor: diamond_boots
           give-all-items: true
         up8:
           type: upgrade
           wave: 81
           upgrades:
-            Bodyguard:
-              armor: diamond_boots 0:1;2:2;7:1
-              items: iron_sword 19:3;20:3
-            Bowman:
-              armor: chainmail_leggings 0:1;4:2
-              items: bow 48:2;49:2;50:2;51:1
+            Knight:
+              armor: diamond_boots
           give-all-items: true
         up9:
           type: upgrade
           wave: 91
           upgrades:
-            Bodyguard:
-              armor: diamond_chestplate 0:2;7:1, diamond_leggings 0:1;7:2
-              items: iron_sword 19:3;20:3;17:2, golden_apple:2
-            Bowman:
-              armor: iron_chestplate 0:1;4:2, diamond_boots 4:2;2:2
-              items: bow 48:3;49:2;50:2;51:1, golden_apple:2
+            Knight:
+              armor: diamond_boots
           give-all-items: false
         swarm1:
           type: swarm
