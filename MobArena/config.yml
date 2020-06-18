@@ -7,22 +7,22 @@ global-settings:
     wolf: bone
 classes:
   Knight:
-    items: diamond_sword, 373:8197:3
+    items: diamond_sword, potion:8197:3
     armor: iron_helmet, iron_chestplate, iron_leggings, iron_boots
   Tank:
-    items: iron_sword, potion:instant_heal:2
+    items: iron_sword, potion:8197:2
     armor: diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots
     effects: slow, health_boost
   Archer:
-    items: wood_sword, bow, arrow:256, potion:instant_heal:3, bone
+    items: wood_sword, bow, arrow:256, potion:8197:3, bone
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
     effects: speed
   Chemist:
-    items: stone_sword, splash_potion:instant_damage:30, splash_potion:poison:8, splash_potion:instant_heal:20, potion:instant_heal:3
+    items: stone_sword, splash_potion:16396:30, splash_potion:16388:8, splash_potion:16389:20, potion:8197:3
     armor: chainmail_helmet, chainmail_chestplate, chainmail_leggings, chainmail_boots
     effects: speed:1
   Oddjob:
-    items: stone_sword, flint_and_steel, tnt:4, potion:instant_heal:3
+    items: stone_sword, flint_and_steel, tnt:4, potion:8197:3
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
 arenas:
   Redemption:
@@ -64,7 +64,7 @@ arenas:
       start-delay-timer: 0
       auto-ready: false
       use-class-chests: false
-      boss-health-bar: title
+      boss-health-bar: name
       display-waves-as-level: true
       display-timer-as-level: false
       use-scoreboards: true
