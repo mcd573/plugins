@@ -1,5 +1,3 @@
-# 
-# These are default, class chests are used instead
 global-settings:
   enabled: true
   allowed-commands: /list, /pl, /msg
@@ -9,7 +7,7 @@ global-settings:
     wolf: bone
 classes:
   Knight:
-    items: diamond_sword, potion:instant_heal:3
+    items: diamond_sword, 373:8197:3
     armor: iron_helmet, iron_chestplate, iron_leggings, iron_boots
   Tank:
     items: iron_sword, potion:instant_heal:2
@@ -24,7 +22,7 @@ classes:
     armor: chainmail_helmet, chainmail_chestplate, chainmail_leggings, chainmail_boots
     effects: speed:1
   Oddjob:
-    items: stone_sword, flint_and_steel, netherrack:2, tnt:4, potion:instant_heal:3
+    items: stone_sword, flint_and_steel, tnt:4, potion:instant_heal:3
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
 arenas:
   Redemption:
@@ -65,8 +63,8 @@ arenas:
       auto-start-timer: 300
       start-delay-timer: 0
       auto-ready: false
-      use-class-chests: true
-      boss-health-bar: name
+      use-class-chests: false
+      boss-health-bar: title
       display-waves-as-level: true
       display-timer-as-level: false
       use-scoreboards: true
@@ -328,7 +326,6 @@ arenas:
       spectator: 34.5,62,-106.5,180.33,0.0,Redemption
       arena: 34.5,61,-108.5,348.39,0.0,Redemption
       lobby: -35.5,56,-145.5,-91.36,0.0,Redemption
-      exit: -518.5,78,-136.5,-88.76,0.0,world
     class-limits:
       Oddjob: -1
       Knight: -1
