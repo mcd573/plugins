@@ -1,0 +1,81 @@
+permissions: []
+permissionMessage: ''
+cancelPermission: ''
+cancelPermissionMessage: ''
+world: Redemption
+X: -31
+Y: 57
+Z: -144
+price: 0.0
+exp: 0
+cooldown: 0
+globalCooldown: 0
+lastGlobalUse: 0
+confirmation: false
+confirmationMessage: ''
+cancel_mode: ALWAYS
+commands:
+  '0':
+    command: /ci <player>
+    type: SERVER_COMMAND
+    delay: 0
+    grantPerms: []
+    alwaysPersisted: false
+    interactValue: 0
+  '1':
+    command: /ma class Chemist
+    type: PLAYER_COMMAND
+    delay: 0
+    grantPerms: []
+    alwaysPersisted: false
+    interactValue: 0
+  '2':
+    command: /give <player> splashhealingpotion 30
+    type: SERVER_COMMAND
+    delay: 0
+    grantPerms: []
+    alwaysPersisted: false
+    interactValue: 0
+  '3':
+    command: /give <player> splashpoisonpotion 8
+    type: SERVER_COMMAND
+    delay: 0
+    grantPerms: []
+    alwaysPersisted: false
+    interactValue: 0
+  '4':
+    command: /give <player> splashharmingpotion 20
+    type: SERVER_COMMAND
+    delay: 0
+    grantPerms: []
+    alwaysPersisted: false
+    interactValue: 0
+  '5':
+    command: /give <player> healingleveliipotion 3
+    type: SERVER_COMMAND
+    delay: 0
+    grantPerms: []
+    alwaysPersisted: false
+    interactValue: 0
+grantPermissions: []
+priceItems: []
+heldItems: []
+pi_criteria:
+  enchants: false
+  name: false
+  lores: false
+  durability: false
+hi_criteria:
+  enchants: false
+  name: false
+  lores: false
+  durability: false
+loops: -1
+loop_delay: 1
+uses_limit: 0
+uses_tally: 5
+protectedBlocks:
+- Redemption,-30,57,-144
+displayInternalMessages: true
+timeLimitMaximum: 0
+timeLimitMinimum: 0

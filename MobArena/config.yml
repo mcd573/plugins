@@ -9,21 +9,26 @@ classes:
   Knight:
     items: diamond_sword, potion:8197:3
     armor: iron_helmet, iron_chestplate, iron_leggings, iron_boots
+    classchest: -515,78,-135,0.0,0.0,world
   Tank:
     items: iron_sword, potion:8197:2
     armor: diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots
     effects: slow, health_boost
+    classchest: -514,78,-136,0.0,0.0,world
   Archer:
     items: wood_sword, bow, arrow:256, potion:8197:3, bone
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
     effects: speed
+    classchest: -515,78,-137,0.0,0.0,world
   Chemist:
     items: stone_sword, splash_potion:16396:30, splash_potion:16388:8, splash_potion:16389:20, potion:8197:3
     armor: chainmail_helmet, chainmail_chestplate, chainmail_leggings, chainmail_boots
     effects: speed:1
+    classchest: -514,78,-138,0.0,0.0,world
   Oddjob:
     items: stone_sword, flint_and_steel, tnt:4, potion:8197:3
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
+    classchest: -515,78,-139,0.0,0.0,world
 arenas:
   Redemption:
     settings:
@@ -59,11 +64,11 @@ arenas:
       food-regen: false
       lock-food-level: true
       player-time-in-arena: world
-      auto-ignite-tnt: true
+      auto-ignite-tnt: false
       auto-start-timer: 300
       start-delay-timer: 0
       auto-ready: false
-      use-class-chests: false
+      use-class-chests: true
       boss-health-bar: name
       display-waves-as-level: true
       display-timer-as-level: false

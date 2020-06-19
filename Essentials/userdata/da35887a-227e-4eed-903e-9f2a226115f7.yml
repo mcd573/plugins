@@ -1,8 +1,8 @@
 lastAccountName: Espik
 timestamps:
-  login: 1592446151471
-  lastteleport: 1592452628620
-  logout: 1592452876988
+  login: 1592506838723
+  lastteleport: 1592509611874
+  logout: 1592509615537
 ipAddress: 71.195.48.183
 homes:
   home:
@@ -14,15 +14,15 @@ homes:
     pitch: 20.780249
 lastlocation:
   world: world
-  x: -528.1750338318309
-  y: 79.0
-  z: -221.92500001192096
-  yaw: -25.495483
-  pitch: 21.87468
+  x: -1007.5355350037227
+  y: 65.0
+  z: -493.0107038828003
+  yaw: -286.32703
+  pitch: 19.98203
 logoutlocation:
   world: world
-  x: -1001.7607026213416
+  x: -997.6918745391807
   y: 63.5
-  z: -506.2939675978712
-  yaw: -179.70258
-  pitch: 8.12225
+  z: -503.7113482269882
+  yaw: -207.74562
+  pitch: 2.7625916

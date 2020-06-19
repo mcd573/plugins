@@ -1,16 +1,16 @@
 lastAccountName: OfficerJenny6903
 timestamps:
-  login: 1592440144242
-  lastteleport: 1592440238968
-  logout: 1592440334504
-ipAddress: 191.31.3.119
+  login: 1592525669130
+  lastteleport: 1592536366071
+  logout: 1592525634637
+ipAddress: 191.31.8.73
 lastlocation:
   world: world
-  x: -441.3932593582804
-  y: 63.0
-  z: -102.95685260058194
-  yaw: 163.1969
-  pitch: -4.4999976
+  x: -445.5
+  y: 47.0
+  z: -106.5
+  yaw: 21.3
+  pitch: 2.85
 homes:
   home:
     world: world
@@ -21,8 +21,9 @@ homes:
     pitch: -6.4500093
 logoutlocation:
   world: world
-  x: -523.562028375583
-  y: 80.0
-  z: -203.67830889967297
-  yaw: -35.943417
-  pitch: 11.100002
+  x: -419.96424913058934
+  y: 63.0
+  z: -106.24248678409403
+  yaw: -213.89856
+  pitch: 49.79998
+afk: false
