@@ -345,7 +345,7 @@ arenas:
       waves:
         every:
           '3': stick, stick, stick:2, stick:2, stick:3, bone, bone, bone:2, feather, feather, feather:2, seeds, seeds, seeds:2, seeds:2, seeds:3, string, string, string:2, sulphur, sulphur, wood, wood, furnace, chest
-          '5': clay_ball, clay_ball, clay_ball:2, clay_ball:2, clay_ball:3, melon_seeds, melon_seeds, melon_seeds:2, melon_seeds:2, coal, coal, coal:2, coal:2, coal:3, porkchop, porkchop:2, white_wool, white_wool:2, leather, leather:2, arrow, slime_ball, gold_ingot, iron_ingot
+          '5': clay_ball, clay_ball, clay_ball:2, clay_ball:2, clay_ball:3, melon_seeds, melon_seeds, melon_seeds:2, melon_seeds:2, coal, coal, coal:2, coal:2, coal:3, pork, pork:2, wool, wool:2, leather, leather:2, arrow, slime_ball, gold_ingot, iron_ingot
         after:
           '10': chainmail_helmet, chainmail_chestplate, chainmail_leggings, chainmail_boots, stone_sword, stone_pickaxe, golden_hoe, apple:3, apple:4, apple:5
           '20': blaze_powder, cooked_beef:2, cooked_beef:3, iron_pickaxe, tnt:2, tnt:3, bow, fire_charge, minecart
