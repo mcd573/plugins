@@ -52,7 +52,7 @@ hi_criteria:
 loops: -1
 loop_delay: 1
 uses_limit: 0
-uses_tally: 5
+uses_tally: 34
 protectedBlocks:
 - Redemption,-30,57,-150
 displayInternalMessages: true

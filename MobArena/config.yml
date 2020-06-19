@@ -11,29 +11,34 @@ classes:
     armor: iron_helmet, iron_chestplate, iron_leggings, iron_boots
     unbreakable-weapons: true
     unbreakable-armor: true
+    classchest: -515,78,-135,0.0,0.0,world
   Tank:
     items: iron_sword, potion:instant_heal:2
     armor: diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots
     effects: slow, health_boost
     unbreakable-weapons: true
     unbreakable-armor: true
+    classchest: -514,78,-136,0.0,0.0,world
   Archer:
     items: wood_sword, bow, arrow:256, potion:instant_heal:3, bone
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
     effects: speed
     unbreakable-weapons: true
     unbreakable-armor: true
+    classchest: -515,78,-137,0.0,0.0,world
   Chemist:
     items: stone_sword, splash_potion:instant_heal:30, splash_potion:poison:8, splash_potion:instant_damage:20, potion:instant_heal:3
     armor: chainmail_helmet, chainmail_chestplate, chainmail_leggings, chainmail_boots
     effects: speed:1
     unbreakable-weapons: true
     unbreakable-armor: true
+    classchest: -514,78,-138,0.0,0.0,world
   Oddjob:
     items: stone_sword, flint_and_steel, tnt:4, potion:instant_heal:3
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
     unbreakable-weapons: true
     unbreakable-armor: true
+    classchest: -515,78,-139,0.0,0.0,world
 arenas:
   Redemption:
     settings:
@@ -73,7 +78,7 @@ arenas:
       auto-start-timer: 300
       start-delay-timer: 0
       auto-ready: false
-      use-class-chests: false
+      use-class-chests: true
       boss-health-bar: name
       display-waves-as-level: true
       display-timer-as-level: false
