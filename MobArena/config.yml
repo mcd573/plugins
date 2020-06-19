@@ -7,23 +7,33 @@ global-settings:
     wolf: bone
 classes:
   Knight:
-    items: diamond_sword, potion:8197:3
+    items: diamond_sword, potion:instant_heal:3
     armor: iron_helmet, iron_chestplate, iron_leggings, iron_boots
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Tank:
-    items: iron_sword, potion:8197:2
+    items: iron_sword, potion:instant_heal:2
     armor: diamond_helmet, diamond_chestplate, diamond_leggings, diamond_boots
     effects: slow, health_boost
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Archer:
-    items: wood_sword, bow, arrow:256, potion:8197:3, bone
+    items: wood_sword, bow, arrow:256, potion:instant_heal:3, bone
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
     effects: speed
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Chemist:
-    items: stone_sword, splash_potion:16396:30, splash_potion:16388:8, splash_potion:16389:20, potion:8197:3
+    items: stone_sword, splash_potion:instant_heal:30, splash_potion:poison:8, splash_potion:instant_damage:20, potion:instant_heal:3
     armor: chainmail_helmet, chainmail_chestplate, chainmail_leggings, chainmail_boots
     effects: speed:1
+    unbreakable-weapons: true
+    unbreakable-armor: true
   Oddjob:
-    items: stone_sword, flint_and_steel, tnt:4, potion:8197:3
+    items: stone_sword, flint_and_steel, tnt:4, potion:instant_heal:3
     armor: leather_helmet, leather_chestplate, leather_leggings, leather_boots
+    unbreakable-weapons: true
+    unbreakable-armor: true
 arenas:
   Redemption:
     settings:
@@ -59,7 +69,7 @@ arenas:
       food-regen: false
       lock-food-level: true
       player-time-in-arena: world
-      auto-ignite-tnt: true
+      auto-ignite-tnt: false
       auto-start-timer: 300
       start-delay-timer: 0
       auto-ready: false
@@ -104,71 +114,103 @@ arenas:
           monsters:
             zombie: 10
             baby_zombie: 5
-          drops: ender_pearl, golden_apple, tnt:3,
+          drops: ender_pearl, golden_apple
       single:
         up1:
           type: upgrade
           wave: 11
           upgrades:
+            all:
+              effects: regen:0:30
             Knight:
               armor: diamond_boots
+              items: diamond_sword 17:1
           give-all-items: true
         up2:
           type: upgrade
           wave: 21
           upgrades:
+            all:
+              effects: regen:0:30
+              items: golden_apple
             Knight:
-              armor: diamond_boots
+              armor: diamond_helmet
+              items: diamond_sword 17:1;19:1
           give-all-items: true
         up3:
           type: upgrade
           wave: 31
           upgrades:
+            all:
+              effects: regen:0:30
             Knight:
-              armor: diamond_boots
+              armor: diamond_leggings, diamond_boots 0:1
+              items: diamond_sword 17:2;19:1
           give-all-items: true
         up4:
           type: upgrade
           wave: 41
           upgrades:
+            all:
+              effects: regen:0:30
+              items: golden_apple
             Knight:
-              armor: diamond_boots
+              armor: diamond_chestplate, diamond_helmet 0:1
+              items: diamond_sword 17:2;19:1;20:1
           give-all-items: true
         up5:
           type: upgrade
           wave: 51
           upgrades:
+            all:
+              effects: regen:0:30
             Knight:
-              armor: diamond_boots
+              armor: diamond_leggings 0:1
+              items: diamond_sword 16:1;17:3;19:1;20:1
           give-all-items: true
         up6:
           type: upgrade
           wave: 61
           upgrades:
+            all:
+              effects: regen:0:30
+              items: golden_apple
             Knight:
-              armor: diamond_boots
+              armor: diamond_chestplate 0:1
+              items: diamond_sword 16:1;17:3;18:1;19:1;20:1
           give-all-items: true
         up7:
           type: upgrade
           wave: 71
           upgrades:
+            all:
+              effects: regen:0:30
             Knight:
-              armor: diamond_boots
+              armor: diamond_helmet 0:1;7:1, diamond_boots 0:1;7:1
+              items: diamond_sword 16:2;17:3;18:1;19:1;20:2
           give-all-items: true
         up8:
           type: upgrade
           wave: 81
           upgrades:
+            all:
+              effects: regen:0:30
+              items: golden_apple:2
             Knight:
-              armor: diamond_boots
+              armor: diamond_leggings 0:1;7:1, diamond_chestplate 0:1;7:1, diamond_boots 0:2;7:1
+              items: diamond_sword 16:3;17:3;18:2;19:1;20:2
           give-all-items: true
         up9:
           type: upgrade
           wave: 91
           upgrades:
+            all:
+              effects: regen:0:30
+              items: golden_apple:3
             Knight:
-              armor: diamond_boots
-          give-all-items: false
+              armor: diamond_helmet 0:2;7:1, diamond_leggings 0:2;7:1, diamond_chestplate 0:2;7:1
+              items: diamond_sword 16:4;17:3;18:3;19:2;20:2
+          give-all-items: true
         swarm1:
           type: swarm
           wave: 6
@@ -302,13 +344,19 @@ arenas:
     rewards:
       waves:
         every:
-          '3': feather, bone, stick
-          '5': dirt:4, gravel:4, stone:4
-          '10': iron_ingot:10, gold_ingot:8
+          '3': stick, stick, stick:2, stick:2, stick:3, bone, bone, bone:2, feather, feather, feather:2, seeds, seeds, seeds:2, seeds:2, seeds:3, string, string, string:2, gunpowder, gunpowder, oak_planks, oak_planks, furnace, chest
+          '5': clay_ball, clay_ball, clay_ball:2, clay_ball:2, clay_ball:3, melon_seeds, melon_seeds, melon_seeds:2, melon_seed:2, coal, coal, coal:2, coal:2, coal:3, porkchop, porkchop:2, white_wool, white_wool:2, leather, leather:2, arrow, slime_ball, gold_ingot, iron_ingot
         after:
-          '7': minecart, storage_minecart, powered_minecart
-          '13': iron_sword, iron_pickaxe, iron_spade
-          '16': diamond_sword
+          '10': chainmail_helmet, chainmail_chestplate, chainmail_leggings, chainmail_boots, stone_sword, stone_pickaxe, golden_hoe, apple:3, apple:4, apple:5
+          '20': blaze_powder, cooked_beef:2, cooked_beef:3, iron_pickaxe, tnt:2, tnt:3, bow, fire_charge, minecart
+          '30': iron_sword, iron_sword 16:1, iron_sword 17:2, bow 48:1, diamond, bookshelf
+          '40': enchanted_book 50:1, enchanted_book 32:1, enchanted_book 32:2, iron_helmet, iron_helmet 3:1, iron_chestplate
+          '50': emerald, golden_apple, diamond_leggings, diamond_boots, diamond_boots 2:1
+          '60': enchantment_table, cake:2, cake:3, obsidian:3, obsidian:4, obsidian:5, arrow:32
+          '70': golden_apple:3, experience_bottle:32, diamond_chestplate 0:1, diamond_helmet 0:1;7:1, bow 51:1
+          '80': tnt:64, enchanted_golden_apple:1, diamond_pickaxe 34:2;32:2;35:1, nether_star
+          '90': ender_chest, diamond_leggings 0:3;34:2;7:2, enchanted_book 20:2, melon_block:64
+          '100': enchanted_book 16:5, enchanted_book 0:4, enchanted_book 48:5, diamond_sword 16:3;19:1;20:1;21:2;34:3, enchanted_golden_apple:3
     coords:
       spawnpoints:
         20,56,-167: 20.5,56,-166.5,0.0,0.0,Redemption
