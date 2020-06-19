@@ -121,7 +121,7 @@ arenas:
           wave: 11
           upgrades:
             all:
-              effects: regen:0:30
+              effects: regeneration:0:30
             Knight:
               armor: diamond_boots
               items: diamond_sword 17:1
@@ -131,7 +131,7 @@ arenas:
           wave: 21
           upgrades:
             all:
-              effects: regen:0:30
+              effects: regeneration:0:30
               items: golden_apple
             Knight:
               armor: diamond_helmet
@@ -142,7 +142,7 @@ arenas:
           wave: 31
           upgrades:
             all:
-              effects: regen:0:30
+              effects: regeneration:0:30
             Knight:
               armor: diamond_leggings, diamond_boots 0:1
               items: diamond_sword 17:2;19:1
@@ -152,7 +152,7 @@ arenas:
           wave: 41
           upgrades:
             all:
-              effects: regen:0:30
+              effects: regeneration:0:30
               items: golden_apple
             Knight:
               armor: diamond_chestplate, diamond_helmet 0:1
@@ -163,7 +163,7 @@ arenas:
           wave: 51
           upgrades:
             all:
-              effects: regen:0:30
+              effects: regeneration:0:30
             Knight:
               armor: diamond_leggings 0:1
               items: diamond_sword 16:1;17:3;19:1;20:1
@@ -173,7 +173,7 @@ arenas:
           wave: 61
           upgrades:
             all:
-              effects: regen:0:30
+              effects: regeneration:0:30
               items: golden_apple
             Knight:
               armor: diamond_chestplate 0:1
@@ -184,7 +184,7 @@ arenas:
           wave: 71
           upgrades:
             all:
-              effects: regen:0:30
+              effects: regeneration:0:30
             Knight:
               armor: diamond_helmet 0:1;7:1, diamond_boots 0:1;7:1
               items: diamond_sword 16:2;17:3;18:1;19:1;20:2
@@ -194,7 +194,7 @@ arenas:
           wave: 81
           upgrades:
             all:
-              effects: regen:0:30
+              effects: regeneration:0:30
               items: golden_apple:2
             Knight:
               armor: diamond_leggings 0:1;7:1, diamond_chestplate 0:1;7:1, diamond_boots 0:2;7:1
@@ -205,7 +205,7 @@ arenas:
           wave: 91
           upgrades:
             all:
-              effects: regen:0:30
+              effects: regeneration:0:30
               items: golden_apple:3
             Knight:
               armor: diamond_helmet 0:2;7:1, diamond_leggings 0:2;7:1, diamond_chestplate 0:2;7:1
