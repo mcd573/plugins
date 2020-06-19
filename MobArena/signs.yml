@@ -53,3 +53,8 @@ leave:
 - '&a<arena-name>'
 - '---------------'
 - 'Hit to Leave'
+
+spectate:
+- '&a<arena-name>'
+- '---------------'
+- 'Hit to Spectate'

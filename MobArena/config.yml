@@ -126,91 +126,115 @@ arenas:
           wave: 11
           upgrades:
             all:
-              effects: regeneration:0:30
+              effects: regeneration:1:15
             Knight:
               armor: diamond_boots
               items: diamond_sword 17:1
+            Archer:
+              armor: chainmail_chestplate, chainmail_boots
+              items: wooden_sword 17:1, arrow:32
           give-all-items: true
         up2:
           type: upgrade
           wave: 21
           upgrades:
             all:
-              effects: regeneration:0:30
+              effects: regeneration:1:15
               items: golden_apple
             Knight:
               armor: diamond_helmet
               items: diamond_sword 17:1;19:1
+            Archer:
+              armor: chainmail_leggings
+              items: stone_sword 17:1, bow 48:1, arrow:32
           give-all-items: true
         up3:
           type: upgrade
           wave: 31
           upgrades:
             all:
-              effects: regeneration:0:30
+              effects: regeneration:1:15
             Knight:
               armor: diamond_leggings, diamond_boots 0:1
               items: diamond_sword 17:2;19:1
+            Archer:
+              armor: iron_boots
+              items: stone_sword 17:2;19:1, bow 48:1;49:1, arrow:32
           give-all-items: true
         up4:
           type: upgrade
           wave: 41
           upgrades:
             all:
-              effects: regeneration:0:30
+              effects: regeneration:1:15
               items: golden_apple
             Knight:
               armor: diamond_chestplate, diamond_helmet 0:1
               items: diamond_sword 17:2;19:1;20:1
+            Archer:
+              armor: iron_leggings, iron_boots 0:1
+              items: stone_sword 17:2;19:2, bow 48:2;49:1;50:1, arrow:32
           give-all-items: true
         up5:
           type: upgrade
           wave: 51
           upgrades:
             all:
-              effects: regeneration:0:30
+              effects: regeneration:1:15
             Knight:
               armor: diamond_leggings 0:1
               items: diamond_sword 16:1;17:3;19:1;20:1
+            Archer:
+              armor: iron_chestplate, iron_leggings 0:1
+              items: stone_sword 17:2;18:1;19:2, bow 48:3;49:1;50:1, arrow:32
           give-all-items: true
         up6:
           type: upgrade
           wave: 61
           upgrades:
             all:
-              effects: regeneration:0:30
+              effects: regeneration:1:15
               items: golden_apple
             Knight:
               armor: diamond_chestplate 0:1
               items: diamond_sword 16:1;17:3;18:1;19:1;20:1
+            Archer:
+              armor: iron_chestplate 0:1
+              items: stone_sword 17:3;18:2;19:2, bow 48:3;49:1;50:1;51:1, arrow:1
           give-all-items: true
         up7:
           type: upgrade
           wave: 71
           upgrades:
             all:
-              effects: regeneration:0:30
+              effects: regeneration:1:15
             Knight:
               armor: diamond_helmet 0:1;7:1, diamond_boots 0:1;7:1
               items: diamond_sword 16:2;17:3;18:1;19:1;20:2
+            Archer:
+              armor: iron_chestplate 0:1
+              items: stone_sword 16:1;17:3;18:2;19:2, bow 48:4;49:2;50:1;51:1
           give-all-items: true
         up8:
           type: upgrade
           wave: 81
           upgrades:
             all:
-              effects: regeneration:0:30
+              effects: regeneration:1:15
               items: golden_apple:2
             Knight:
               armor: diamond_leggings 0:1;7:1, diamond_chestplate 0:1;7:1, diamond_boots 0:2;7:1
               items: diamond_sword 16:3;17:3;18:2;19:1;20:2
+            Archer:
+              armor: iron_chestplate 0:2
+              items: stone_sword 16:2;17:3;18:3;19:2, bow 48:5;49:2;50:1;51:1
           give-all-items: true
         up9:
           type: upgrade
           wave: 91
           upgrades:
             all:
-              effects: regeneration:0:30
+              effects: regeneration:1:15
               items: golden_apple:3
             Knight:
               armor: diamond_helmet 0:2;7:1, diamond_leggings 0:2;7:1, diamond_chestplate 0:2;7:1
