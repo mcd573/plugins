@@ -353,7 +353,7 @@ arenas:
           '40': enchanted_book 50:1, enchanted_book 32:1, enchanted_book 32:2, iron_helmet, iron_helmet 3:1, iron_chestplate
           '50': emerald, golden_apple, diamond_leggings, diamond_boots, diamond_boots 2:1
           '60': enchantment_table, cake:2, cake:3, obsidian:3, obsidian:4, obsidian:5, arrow:32
-          '70': golden_apple:3, experience_bottle:32, diamond_chestplate 0:1, diamond_helmet 0:1;7:1, bow 51:1
+          '70': golden_apple:3, exp_bottle:32, diamond_chestplate 0:1, diamond_helmet 0:1;7:1, bow 51:1
           '80': tnt:64, enchanted_golden_apple:1, diamond_pickaxe 34:2;32:2;35:1, nether_star
           '90': ender_chest, diamond_leggings 0:3;34:2;7:2, enchanted_book 20:2, melon_block:64
           '100': enchanted_book 16:5, enchanted_book 0:4, enchanted_book 48:5, diamond_sword 16:3;19:1;20:1;21:2;34:3, enchanted_golden_apple:3
