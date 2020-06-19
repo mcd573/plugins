@@ -132,7 +132,7 @@ arenas:
               items: diamond_sword 17:1
             Archer:
               armor: chainmail_chestplate, chainmail_boots
-              items: wooden_sword 17:1, arrow:32
+              items: wood_sword 17:1, arrow:32
           give-all-items: true
         up2:
           type: upgrade
